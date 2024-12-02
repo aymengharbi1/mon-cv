@@ -1,0 +1,8 @@
+version: "3"
+services:
+  hugo:
+    image: klakegg/hugo:ext-alpine
+    volumes:
+      - ./:/src    # Montre le répertoire courant dans le conteneur
+    working_dir: /src  # Définit le répertoire de travail dans le conteneur
+    command: hugo      # Exécute la commande 'hugo' pour générer le site

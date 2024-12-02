@@ -1,0 +1,10 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Aymen Gharbi'
+theme = "hyde"
+
+[Menus]
+  main = [
+      {Name = "Github", URL = "https://github.com/aymengharbi1/"},
+      {Name = "LinkedIn", URL = "https://www.linkedin.com/in/aymengharbi1/"}
+  ]
